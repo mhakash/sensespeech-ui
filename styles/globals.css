@@ -1,8 +1,55 @@
+@font-face {
+  font-family: "Bogle";
+  src: url("/fonts/Bogle/BOGLEBLACK.OTF");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bogle";
+  src: url("/fonts/Bogle/BOGLEBLACKITALIC.OTF");
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bogle";
+  src: url("/fonts/Bogle/BOGLEBOLD.OTF");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bogle";
+  src: url("/fonts/Bogle/BOGLEBOLDITALIC.OTF");
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bogle";
+  src: url("/fonts/Bogle/BOGLEITALIC.OTF");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bogle";
+  src: url("/fonts/Bogle/BOGLEREGULAR.OTF");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Bogle,-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
